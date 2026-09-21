@@ -9,6 +9,8 @@ A simulated multi-router enterprise network built using **Cisco Packet Tracer**,
 ## 🛠 Topology Details
 
 - **Routers:** 3x Cisco 2911 Routers configured with Single-Area OSPF (Area 0).
+- 
+- **Central Router (Router0):** Configured with a `Loopback0` interface to serve as a stable **OSPF Router-ID** and a reliable virtual interface for management testing.
 
 - **Switches:** 2x Cisco 2960 Switches.
 
